@@ -3,7 +3,7 @@ var app=express();
 app.use(express.static(__dirname+'/public'));
 app.get('/',(req ,res)=>{
 	//res.send('<h1>Hello Express!</h1>');
-	res.send({name:'behzad', age:32})
+	res.send('<h2> Here is my first Node Web app</h2>') ;
 });
 
 app.get('/test',(req,res)=>{
